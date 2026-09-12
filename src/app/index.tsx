@@ -4,8 +4,8 @@ import { Link } from "expo-router";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Hello my first React - Native App  .</Text>
-      <Text> I am So much excited ......  .</Text>
+      <Text className="text-red-500 text-4xl bg-purple-500">Hello my first React - Native App  .</Text>
+      <Text className="text-blue-700"> I am So much excited ......  .</Text>
       <Link href="/about">About</Link>
 
     </View>
@@ -17,6 +17,5 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "green",  
   },
 });
